@@ -16,6 +16,11 @@ public class Department {
 	public void setDeptName(int deptName) {
 		this.deptName = deptName;
 	}
+	public Department(int deptId, int deptName) {
+		super();
+		this.deptId = deptId;
+		this.deptName = deptName;
+	}
 	
 	
 }
